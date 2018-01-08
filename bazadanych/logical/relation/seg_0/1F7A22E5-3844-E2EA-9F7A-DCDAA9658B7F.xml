@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wplaty Wynajem FK" directorySegmentName="seg_0" id="1F7A22E5-3844-E2EA-9F7A-DCDAA9658B7F">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 21:08:51 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<sourcePk>06FB4C34-84C1-D0A5-737D-22DB3A14DAEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48F74741-C4DD-50B5-C0E1-B341DB71FD98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D1891635-8641-A73E-819C-8E0C1C95DD47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

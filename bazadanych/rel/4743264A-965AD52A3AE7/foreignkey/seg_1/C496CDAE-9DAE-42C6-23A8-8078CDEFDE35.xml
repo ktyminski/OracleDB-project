@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="C496CDAE-9DAE-42C6-23A8-8078CDEFDE35" containerWithKeyObject="4CFCB130-E28B-F109-AE62-DE2E0FE0C219" localFKIndex="77587308-DF79-9755-08A8-C0A003FCFF48" name="Czarna_lista_Najemca_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>C46C7188-39AC-183C-82A9-F868F1F2CB5D</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<referredTableLongName>Najemca</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65D1259E-3A9C-0C13-7AB9-F931213FB6E3</referredTableID>
+<keyObject>19299AE5-E10D-A170-D803-472683014AE8</keyObject>
+<referredKeyID>19299AE5-E10D-A170-D803-472683014AE8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

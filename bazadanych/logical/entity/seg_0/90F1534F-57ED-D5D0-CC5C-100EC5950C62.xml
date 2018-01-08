@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90F1534F-57ED-D5D0-CC5C-100EC5950C62" name="Adres">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:26:16 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="97C1C446-3948-2269-68EE-76AB2ABACBE6">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:26:28 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miasto" id="C72AD1DE-C1A2-C16E-B5F5-98C910022160">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:26:44 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="3DBC24DF-37FE-455D-D391-A97C1D84BD8E">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:27:02 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer" id="27F41088-A75B-2BFE-8206-2FCEB1D11980">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:27:37 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kod pocztowy" id="8BD0D955-427A-D0A0-D957-86A903AF29EB">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:27:57 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="381AF56E-3665-8E61-AB5B-90E689782A89">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:03:25 UTC</createdTime>
+<generatorID>8D68A9A9-A41A-562B-B5A1-B95EDF712832</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<referedAttribute>BBEDE44F-3FFB-A0EB-DED2-3DFBA8A0B407</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="3C724D9D-BFFD-05BD-DCE8-7FBB1F9F78C1">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:03:32 UTC</createdTime>
+<generatorID>4FBBF608-B2F3-467F-9E30-5724BB76B6AD</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<referedAttribute>047AB65A-3E28-E6E8-0C94-6572D9E1320E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D532304E-8913-4C5D-369D-9A425972F578" name="Adres PK">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-06 22:26:32 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97C1C446-3948-2269-68EE-76AB2ABACBE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

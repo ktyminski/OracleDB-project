@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30B45707-DE9F-C604-20D8-10500E8EB90F" name="Dostepnosc">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 20:28:42 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="41C9A9B3-CE58-EC42-7108-7429B52675D9">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 20:29:14 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dzien" id="920F245E-85A9-F0C1-54D1-8936574127F1">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 20:30:13 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="963CB7B8-2D13-4E1C-A896-62196063CED9" name="Dostepnosc PK">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 20:39:07 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41C9A9B3-CE58-EC42-7108-7429B52675D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

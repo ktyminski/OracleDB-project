@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2FBF636-12D6-0A9C-0E0A-108ED39C968A" name="Prezes">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>A5E6984A-2D8C-141E-46EA-932AE60A2C52</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BCF934AA-6C10-E7F2-CFB0-CC3F59BF1207">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>6BEEFFCB-E37A-FBEC-B2F7-E6BEE3D6B6E9</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="CBB43C80-283D-0817-1462-99EB7953796D">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>91A6A0F4-7A99-3582-60F9-8A2A77D686DA</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="E388067F-3708-9CF9-1C62-115250564D94">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>DEB59ED2-0F10-F8AF-8329-BE486876FCC6</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesel" id="F7AC6D6D-4734-6EE6-F29A-E5E383210AF1">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>F70018D8-B30F-8352-F520-A29EF5D115E3</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40BB10F3-BF8C-0F24-203D-2FBDFF4EE026" name="Prezes_PK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>C39EA7D6-449E-FA4F-104C-F6F86EBEBA3F</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCF934AA-6C10-E7F2-CFB0-CC3F59BF1207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

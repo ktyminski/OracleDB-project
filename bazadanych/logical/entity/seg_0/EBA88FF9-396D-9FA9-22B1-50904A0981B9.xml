@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBA88FF9-396D-9FA9-22B1-50904A0981B9" name="Wynajmujacy">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:29:04 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="047AB65A-3E28-E6E8-0C94-6572D9E1320E">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:29:13 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="5385EA8B-73A5-FF08-DB79-9B10EC58DC25">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:29:53 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="1DA970E7-BC46-A5D5-D623-29E710F8355F">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:30:19 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesel" id="EFB1B3C8-3127-85C1-8DC3-8C1F889CCD1D">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:08:30 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01B0275B-962C-0496-AD9D-E6F08D8CE1C3" name="Wynajmujacy PK">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:29:52 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>047AB65A-3E28-E6E8-0C94-6572D9E1320E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

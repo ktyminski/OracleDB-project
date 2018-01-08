@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15430EEB-162A-D135-B12C-0C07B60A728B" name="Agent">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>B42AA1E0-27DE-2FF1-5801-C9B22E965707</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8E1D579E-30C3-D806-F4F2-6A9B2D510D88">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>F4EBBA1F-92DB-DE11-CEF7-F84B13AFB03C</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="CAF9D95A-BCCE-81FC-69E6-5DDF51A6EC29">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>66C084F2-6B80-BBE7-3A3B-298DDD43319E</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="CF3C563A-CF97-22C7-EE4F-8D23919C1A4B">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>E9CA6DAE-F7EB-A3F4-46BA-F9D6A2904C60</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biuro_wynajmujace_id" id="FA96C4B8-5BF6-9743-86CF-4F7D6D12B582">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>09AAB2EC-B7D8-6A27-BF76-9EE77B7E8B1A</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D71D0F8A-9D45-8CC0-548D-C9D496CD6C43" referredColumn="A912ACDD-A766-49AB-B4BE-0A70C3EC132E"/>
+</associations>
+</Column>
+<Column name="pesel" id="987378F5-B7AF-4DDC-E2F8-E12E1BC96BF8">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>AD880646-3F10-E34E-99A5-5DAE0335C071</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADA406A8-2D71-17E4-A3D7-EF47AC4A6E7F" name="Agent_PK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>2876C4D8-4DC7-E659-9912-A0B7B089EC6F</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E1D579E-30C3-D806-F4F2-6A9B2D510D88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD0A8A56-52A7-5073-6E0B-1DF7AA1A853A" name="Agent_Biuro_wynajmujace_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>1C63652D-C84C-217C-27E6-A83738BD1CFF</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA96C4B8-5BF6-9743-86CF-4F7D6D12B582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

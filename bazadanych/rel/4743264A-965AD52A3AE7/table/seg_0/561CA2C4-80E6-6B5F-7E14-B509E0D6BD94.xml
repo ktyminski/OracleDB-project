@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="561CA2C4-80E6-6B5F-7E14-B509E0D6BD94" name="Dostepnosc_to_Pracownik">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<ordsAlias>relation_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dostepnosc_id" id="794083C9-82A1-2298-C882-9D622F313090">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D295491C-8F49-DC0F-FE9C-ED700CFA36DA" referredColumn="B2215DAE-8E83-2D50-A9F2-93892A2A5B22"/>
+</associations>
+</Column>
+<Column name="Pracownik_id" id="AFCA3E66-0A17-C57E-1234-F7DFF38F1ABA">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC275CB1-3162-18D8-6F8D-BFC838DAECFF" referredColumn="FEE5BCBE-9170-5527-299B-C32D1EA84530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13C9DBE0-287A-03AD-5178-59F370A7BDFA" name="Relation_19_PK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794083C9-82A1-2298-C882-9D622F313090"/>
+<colUsage columnID="AFCA3E66-0A17-C57E-1234-F7DFF38F1ABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F791260A-D1BE-1871-612F-88AD2B6EE518" name="Relation_19_Dostepnosc_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>D66A9107-8F0E-D322-23F9-7DB6A3CDE3AF</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794083C9-82A1-2298-C882-9D622F313090"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F91995F-6BCD-17D1-4395-AE2BB440DA28" name="Relation_19_Pracownik_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>D66A9107-8F0E-D322-23F9-7DB6A3CDE3AF</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFCA3E66-0A17-C57E-1234-F7DFF38F1ABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

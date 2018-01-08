@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4290985C-C0B3-496A-162D-4FE2DF3623E3" name="Dostepnosc_to_Agent">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<ordsAlias>relation_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Agent_id" id="18D9E09C-E15D-79DD-05BE-D52D2EBE125B">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F82263CA-A2E5-2615-3983-CD6DB822C205" referredColumn="8E1D579E-30C3-D806-F4F2-6A9B2D510D88"/>
+</associations>
+</Column>
+<Column name="Dostepnosc_id" id="546BAB96-31A6-F6D3-3A75-CD77DBA0995C">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45D8F7F7-44A6-DBF5-5B88-FDFDA244D524" referredColumn="B2215DAE-8E83-2D50-A9F2-93892A2A5B22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9764511-CA76-6E53-B6CB-DBB77A27E57F" name="Relation_27_PK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D9E09C-E15D-79DD-05BE-D52D2EBE125B"/>
+<colUsage columnID="546BAB96-31A6-F6D3-3A75-CD77DBA0995C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EF47582-6492-300D-99C5-5A0029B2C5C6" name="Relation_27_Agent_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>B13A2E83-DEC0-E3D3-DD07-CB83DB483F46</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D9E09C-E15D-79DD-05BE-D52D2EBE125B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68D6D5FB-9125-2EAE-214B-2E562E2C2FDC" name="Relation_27_Dostepnosc_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>B13A2E83-DEC0-E3D3-DD07-CB83DB483F46</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="546BAB96-31A6-F6D3-3A75-CD77DBA0995C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

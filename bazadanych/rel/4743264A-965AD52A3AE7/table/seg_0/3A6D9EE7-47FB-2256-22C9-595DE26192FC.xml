@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A6D9EE7-47FB-2256-22C9-595DE26192FC" name="Spoldzielnia">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>BBFB373A-42AA-3D8A-83CB-05D316E44A05</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3226BFF0-B54E-B4AF-31AB-038C62E5C21C">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>976727F5-85A2-DAF6-80C7-0BD6582EB3FC</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="D6FA6ED0-45E9-D7F1-4A9D-A1E05B46A808">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>E286A8DA-6508-9DCE-C340-153D415830AA</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezes_id" id="883D4FDF-1B8A-0729-42E6-9DCE5C2D98E7">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>8B713EA6-9E68-AC74-7AE3-476661B5D199</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAF33CF6-C478-929E-F4F2-99A5A1EED615" referredColumn="BCF934AA-6C10-E7F2-CFB0-CC3F59BF1207"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="092A1DB8-3E73-53EE-0188-369E5C8B39D9" name="Spoldzielnia_PK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>A8815F7A-357A-C62E-0CAF-1583C166C5BA</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3226BFF0-B54E-B4AF-31AB-038C62E5C21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18241305-F0E1-DC76-CC5E-A368AF85EE9C" name="Spoldzielnia_Prezes_FK">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:11:05 UTC</createdTime>
+<generatorID>F345F715-C0DD-096C-0DE1-A8A24C4A6B57</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="883D4FDF-1B8A-0729-42E6-9DCE5C2D98E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

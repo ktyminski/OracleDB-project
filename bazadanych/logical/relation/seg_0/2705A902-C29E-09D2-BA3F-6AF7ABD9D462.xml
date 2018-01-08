@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Remont Ekipa remontowa FK" directorySegmentName="seg_0" id="2705A902-C29E-09D2-BA3F-6AF7ABD9D462">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 21:07:17 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<sourcePk>EA177425-FB6F-8827-FE2C-8E31B97886C1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20BC12F8-74D8-0857-9BA0-3189DD0AE161</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B274BE84-940D-2763-DA83-D4D57B891BD3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E40346A-B1EA-B1FA-7BFF-9B357469E841" name="Czarna lista">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:43:30 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A4C9D2F5-A03E-425F-E133-F77500F06CD7">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:57:33 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="powod" id="D24454F3-5A3A-5AB5-394C-204EC09828E1">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:57:49 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="6288A1B3-F6E4-70BF-2CBE-4F18259DA4D8">
+<createdBy>Karol</createdBy>
+<createdTime>2018-01-07 22:10:53 UTC</createdTime>
+<generatorID>C46C7188-39AC-183C-82A9-F868F1F2CB5D</generatorID>
+<ownerDesignName>bazadanych</ownerDesignName>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="true"/>
+</engineerTo>
+<referedAttribute>BBEDE44F-3FFB-A0EB-DED2-3DFBA8A0B407</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F4D2520-FB10-5D5B-FBBA-8FB4BE09AA94" name="Czarna_lista_PK">
+<createdBy>Karol</createdBy>
+<createdTime>2017-12-17 19:57:47 UTC</createdTime>
+<ownerDesignName>bazadanych</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4743264A-1B05-39AC-BEC5-965AD52A3AE7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4C9D2F5-A03E-425F-E133-F77500F06CD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
