@@ -1,6 +1,5 @@
 --najemca--
-INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawel', 'Karok', '94030486650');
-INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawel', 'Jackiewicz', '94030486654');
+INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawe³', 'Jackiewicz', '94030486654');
 INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Tomasz', 'Andrzejewski', '94030489666');
 INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Tomasz', 'Kokosz', '94030484545');
 INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Janek', 'Niemi³y', '94030484546');
@@ -8,8 +7,8 @@ INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Janek', 'Niemi³y', '9403048
 --wynajmujacy--
 
 INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Janusz', 'Tracz', '94030489611');
-INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Pawel', 'Kowal', '94030486622');
-INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Michal', 'Anio³', '94030489633');
+INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Pawe³', 'Kowal', '94030486622');
+INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Micha³', 'Anio³', '94030489633');
 
 --prezes--
 
@@ -116,10 +115,10 @@ INSERT INTO Remont (zakres,uwagi,Ekipa_remontowa_id,data_konca,cena) VALUES ('wy
 INSERT INTO Remont (zakres,uwagi,Ekipa_remontowa_id,data_konca,cena) VALUES ('kompleksowa wymiana okien','okna firmy OKNEX',3, TO_DATE('2013/02/09', 'yyyy/mm/dd') , 7000);
 
 --Mieszkanie--
-INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',1,1,1,1,1800.50, 'Gdansk', 'Piastowska', '30', 'Oliwa');
-INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',1,2,2,2,1200.00, 'Gdansk', 'Oliwska', '31', 'Oliwa');
-INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',1,3,3,3,1150.50, 'Gdansk', 'Krzyczowska', '32', 'Wrzeszcz');
-INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',3,4,4,4,2500.50, 'Gdansk', 'Bitwy Smolenskiej', '33', 'Wrzeszcz');
+INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',1,1,1,1,1800.50, 'Gdañsk', 'Piastowska', '30', 'Oliwa');
+INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',1,2,2,2,1200.00, 'Gdañsk', 'Oliwska', '31', 'Oliwa');
+INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',1,3,3,3,1150.50, 'Gdañsk', 'Krzyczowska', '32', 'Wrzeszcz');
+INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',3,4,4,4,2500.50, 'Gdañsk', 'Bitwy Smolenskiej', '33', 'Wrzeszcz');
 INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',2,5,5,5,3000.50, 'Gdynia', 'Centralna', '39', 'Centum');
 INSERT INTO Mieszkanie (status, Wynajmujacy_id, Spoldzielnia_id, Firma_sprzatajaca_id, Biuro_wynajmujace_id, cena, miasto, ulica, numer, dzielnica) VALUES ('wynajmowane',2,6,6,6,900.50, 'Gdynia', 'Centralna', '55', 'Centum');
 
@@ -178,7 +177,7 @@ INSERT INTO Adres (miasto, ulica, numer, kod_pocztowy, Najemca_id) VALUES ('Bydg
 INSERT INTO Adres (miasto, ulica, numer, kod_pocztowy, Najemca_id) VALUES ('Grajewo','Japonska','55','33-242', 2);
 INSERT INTO Adres (miasto, ulica, numer, kod_pocztowy, Najemca_id) VALUES ('Malo','Szwedzka','55','76-424', 3);
 INSERT INTO Adres (miasto, ulica, numer, kod_pocztowy, Najemca_id) VALUES ('Ameryka','Uli','45','90-522', 4);
-INSERT INTO Adres (miasto, ulica, numer, kod_pocztowy, Najemca_id) VALUES ('Torun','Baltycka','55','50-993', 5);
+INSERT INTO Adres (miasto, ulica, numer, kod_pocztowy, Najemca_id) VALUES ('Torun','Baltycka','55','50-993', 5)
 
 --WYNAJEM--
 INSERT INTO Wynajem (umowa, Mieszkanie_id, Najemca_id) VALUES ('umowa prawna',1,1);

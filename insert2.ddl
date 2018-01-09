@@ -1,6 +1,6 @@
 --najemca--
-INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawel', 'Karok', '94030486650');
-INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawel', 'Jackiewicz', '94030486654');
+INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawe³', 'Karok', '94030486650');
+INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Pawe³', 'Jackiewicz', '94030486654');
 INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Tomasz', 'Andrzejewski', '94030489666');
 INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Tomasz', 'Kokosz', '94030484545');
 INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Janek', 'Niemi³y', '94030484546');
@@ -8,8 +8,8 @@ INSERT INTO Najemca (imie, nazwisko ,pesel) VALUES ('Janek', 'Niemi³y', '9403048
 --wynajmujacy--
 
 INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Janusz', 'Tracz', '94030489611');
-INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Pawel', 'Kowal', '94030486622');
-INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Michal', 'Anio³', '94030489633');
+INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Pawe³', 'Kowal', '94030486622');
+INSERT INTO Wynajmujacy (imie, nazwisko ,pesel) VALUES ('Micha³', 'Anio³', '94030489633');
 
 --prezes--
 
