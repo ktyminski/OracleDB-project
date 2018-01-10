@@ -1,0 +1,1 @@
+skrypt logowanie apex potrzebny do wczytania, aby mo¿na by³o siê logowaæ na innych userów np admin, user.

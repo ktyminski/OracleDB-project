@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bazadanych" id="6A31C7AE-CEB7-5069-C3A8-2DC1476D4D39" version="3.5">
-<createdBy>Karol</createdBy>
-<createdTime>2017-12-06 22:19:39 UTC</createdTime>
-<ownerDesignName>plik</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>6A31C7AE-CEB7-5069-C3A8-2DC1476D4D39</designId>
-</OSDM_Design>
